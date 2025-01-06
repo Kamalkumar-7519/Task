@@ -7,7 +7,7 @@ public class virtnexa {
     //add expence function=====================================================.
     private static void Add_Expences(Connection com,Statement sta,Scanner sc) {
         System.out.println("Enter Description");
-        String name = sc.nextLine();
+        String name = sc.next();
         sc.nextLine();
         System.out.print("Enter amount: ");
         double amount = sc.nextDouble();
